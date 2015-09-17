@@ -1,0 +1,21 @@
+# Vagrant box for using AWS CLI 
+
+AWS CLI - http://aws.amazon.com/cli/
+
+## Installation instruction
+
+	$ vagrant up
+
+## Enter VM
+
+	$ vagrant ssh
+
+## Getting started
+
+### Set up your AWS config
+
+	$ aws configure
+
+### Go to town
+
+	$ aws ec2 describe-instances
